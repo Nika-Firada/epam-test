@@ -21,10 +21,10 @@ iterateArr();
 //    2
 console.log('Test 2')
 function arrayToStringAndBack(){
-    let cars = ['Tesla', 'Toyota', 'Mazda'];
-    let carsT = cars.toString();
+    const cars = ['Tesla', 'Toyota', 'Mazda'];
+    const carsT = cars.join();
     console.log(carsT);
-    let carsBack = carsT.split(',')
+    const carsBack = carsT.split(',')
     console.log(carsBack);
 }
 arrayToStringAndBack();
@@ -43,9 +43,10 @@ addHello();
 console.log('Test 4')
 function changeBool(){
     const numeric = [1, 0, 3, 0];
-    numeric.forEach(bool =>{
-        console.log(Boolean(bool));
+    const booleans = numeric.map(bool =>{
+        return Boolean(bool)
     })
+    console.log(booleans)
 }
 changeBool();
 
