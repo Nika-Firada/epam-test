@@ -1,0 +1,22 @@
+{
+  "name": "epam",
+  "version": "1.0.0",
+  "description": "forepam",
+  "main": "trainee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nika-Firada/epam-test.git"
+  },
+  "author": "nika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nika-Firada/epam-test/issues"
+  },
+  "homepage": "https://github.com/Nika-Firada/epam-test#readme",
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
