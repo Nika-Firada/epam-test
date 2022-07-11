@@ -3,7 +3,16 @@ try{
     let car = 'Tesla';
 }
 catch(err){
-    console.log(err,  "let must be declared’ before use. When running 1/0, the error 'cannot be divided by zero'")
+    console.log(err,  "let must be declared’ before use")
 }
 
 
+
+//javaScript hasnt that kind of exception, its just returns "Infinity"
+try{
+    let sum = 1 / 0;
+    console.log(sum);
+}
+catch(err){
+    console.log(err, "cannot be divided by zero")
+}
